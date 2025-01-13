@@ -1,4 +1,3 @@
-# OHSU-NHT-Bahena_TAL_2024
 # Explanation of MOUSE Code for TAL Analysis
 This document explains the steps performed in the provided R code for analyzing sc-RNAseq data from mouse kidney thick ascending limb (TAL) cells.
 
