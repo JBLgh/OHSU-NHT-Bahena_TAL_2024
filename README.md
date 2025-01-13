@@ -70,14 +70,14 @@ OHSU-NHT-Bahena_TAL_2024/
 │      └── visualization/                          # Scripts for generating figures (UMAP, violin plots, etc)
 │
 ├── results/                                       # Folder for results
-│      ├── figures/                                # Generated figures (e.g., UMAP, dot plots)
-│      └── tables/                                 # Processed tables (e.g., DEG lists)
+│      ├── figures/                                # Generated .tiff figures (e.g., UMAP, dot plots)
+│      └── tables/                                 # Processed tables (e.g., DEG lists, Mouse_TAL_DEG.xlsx, etc)
 │
 ├── docs/                                          # Folder for documentation
-│      └── MOUSE_Code_Explanation.md               # Explanation of code and methods
+│      └── MOUSE_Code_Explanation.md               # Explanatory Markdown files of code and methods (e.g., MOUSE_Code_Explanation.md)
 │
 ├── environment/                                   # Environment setup files
-│      ├── requirements.txt                        # Required Python packages
+│      ├── requirements.txt                        # Required Python packages for setting up dependencies
 │      └── environment.yml                         # Conda environment configuration
 │
 └── notebooks/                                     # Jupyter notebooks for interactive exploration
