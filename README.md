@@ -54,3 +54,31 @@ Figures like UMAP plots, violin plots, and dot plots were generated to highlight
 - Outputs include figures in `.tiff` format and DEG results in `.xlsx`.
 
 Refer to the respective script for further details.
+
+
+
+## Project Directory Structure:
+```
+OHSU-NHT-Bahena_TAL_2024/
+├── README.md
+├── LICENSE
+├── data/
+│   ├── raw/
+│   └── processed/
+├── scripts/
+│   ├── preprocess/
+│   ├── analysis/
+│   └── visualization/
+├── results/
+│   ├── figures/
+│   └── tables/
+├── docs/
+│   └── MOUSE_Code_Explanation.md
+├── environment/
+│   ├── requirements.txt
+│   └── environment.yml
+└── notebooks/
+    ├── exploratory_analysis.ipynb
+    └── visualization.ipynb
+```
+
