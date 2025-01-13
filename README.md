@@ -7,37 +7,48 @@ This is a dummy line: <br>
 ✨ Automated clustering and cell-type annotation. <br>
 ✨ Publication-ready figures for zonation and DEG analysis. <br>
 
-## How to Use
+
 ## Pre-Processing Steps
+1. **Dataset Loading**  
+   - Download the dataset from [PubMed](https://pubmed.ncbi.nlm.nih.gov/31689386/) and load it using `Seurat::Read10X`.
 
-1. ## Dataset Loading**
+2. **Object Creation**  
+   - Create a Seurat object and normalize data using `SCTransform`.
+
+3. **Dimensionality Reduction**  
+   - Perform PCA and UMAP for clustering and visualization.
+
+4. **Clustering**  
+   - Group TAL cells using `FindNeighbors` and `FindClusters`.
+
+5. **Subset Clusters**  
+   - Extract specific TAL clusters for detailed analysis.
+
+
+## How to Use
+
+### 1. Pre-Processing Data
+Run the following command to preprocess raw datasets:
 ```bash
-- Download the dataset from [PubMed](https://pubmed.ncbi.nlm.nih.gov/31689386/) and load it using `Seurat::Read10X`. <br>
+python scripts/preprocess/preprocess_data.py
 ```
-2. ## Object Creation: <br>
+
+### 2. Perform Analysis
+Run clustering and DEG analysis with:
 ```bash
-   - Create a Seurat object and perform normalization using `SCTransform`.
+python scripts/analysis/run_analysis.py
 ```
-3. ## Dimensionality Reduction: <br>
-```bash
-   - Use PCA and UMAP for clustering and visualization.
-```
-4. ## Clustering:
-```
-   - Apply `FindNeighbors` and `FindClusters` to group TAL cells.
-```
-5. ## Subset Clusters:
-```
-   - Extract specific TAL clusters for further analysis.
-```
-6. ## Visualization
-```
+
+### 3. Generate Figures. <br>
 Figures like UMAP plots, violin plots, and dot plots were generated to highlight TAL cell types, DEG, and zonation markers. Scripts for these plots can be found in `scripts/visualization/generate_figures.py`.
+Create publication-ready visualizations:
+```bash
+python scripts/visualization/generate_figures.py
 ```
 
-7. ## Saving Results
-```
-- Outputs include figures in `.tiff` format and DEG results in `.xlsx`.
+### 4. Saving Results
+```bash
+Outputs include figures in `.tiff` format and DEG results in `.xlsx`.
 ```
 
 Refer to the respective script for further details.
