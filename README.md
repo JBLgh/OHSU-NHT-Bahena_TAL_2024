@@ -44,29 +44,35 @@ Figures like UMAP plots, violin plots, and dot plots were generated to highlight
 Refer to the respective script for further details.
 
 
-
 ## Project Directory Structure:
 ```
 OHSU-NHT-Bahena_TAL_2024/
-├── README.md
-├── LICENSE
-├── data/
-│   ├── raw/
-│   └── processed/
-├── scripts/
-│   ├── preprocess/
-│   ├── analysis/
-│   └── visualization/
-├── results/
-│   ├── figures/
-│   └── tables/
-├── docs/
-│   └── MOUSE_Code_Explanation.md
-├── environment/
-│   ├── requirements.txt
-│   └── environment.yml
-└── notebooks/
-    ├── exploratory_analysis.ipynb
-    └── visualization.ipynb
+│
+├── README.md                                          # Project documentation
+├── LICENSE                                            # Licensing information
+│
+├── data/                                             # Folder for datasets
+│      ├── raw/                                       # Raw datasets (e.g., downloaded files)
+│      └── processed/                                 # Processed datasets for analysis
+│
+├── scripts/                                          # Folder for scripts
+│      ├── preprocess/                                # Data cleaning and transformation scripts
+│      ├── analysis/                                  # Clustering and differential expression scripts
+│      └── visualization/                             # Scripts for generating figures
+│
+├── results/                                          # Folder for results
+│      ├── figures/                                   # Generated figures (e.g., UMAP, dot plots)
+│      └── tables/                                    # Processed tables (e.g., DEG lists)
+│
+├── docs/                                             # Folder for documentation
+│      └── MOUSE_Code_Explanation.md                  # Explanation of code and methods
+│
+├── environment/                                      # Environment setup files
+│      ├── requirements.txt                           # Required Python packages
+│      └── environment.yml                            # Conda environment configuration
+│
+└── notebooks/                                        # Jupyter notebooks for interactive exploration
+       ├── exploratory_analysis.ipynb                 # Exploratory data analysis
+       └── visualization.ipynb                        # Visualization examples
 ```
 
