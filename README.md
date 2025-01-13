@@ -2,7 +2,6 @@
 This document explains the steps performed in the provided R code for analyzing sc-RNAseq data from mouse kidney thick ascending limb (TAL) cells.
 
 ## Features
-This is a dummy line: <br>
 ✨ Comprehensive analysis of mouse TAL sc-RNAseq data. <br>
 ✨ Automated clustering and cell-type annotation. <br>
 ✨ Publication-ready figures for zonation and DEG analysis. <br>
@@ -39,7 +38,7 @@ Run clustering and DEG analysis with:
 python scripts/analysis/run_analysis.py
 ```
 
-### 3. Generate Figures. <br>
+### 3. Generate Figures  
 Figures like UMAP plots, violin plots, and dot plots were generated to highlight TAL cell types, DEG, and zonation markers. Scripts for these plots can be found in `scripts/visualization/generate_figures.py`.
 Create publication-ready visualizations:
 ```bash
@@ -47,9 +46,9 @@ python scripts/visualization/generate_figures.py
 ```
 
 ### 4. Saving Results
-```bash
-Outputs include figures in `.tiff` format and DEG results in `.xlsx`.
-```
+Outputs include:
+- Figures in `.tiff` format (e.g., `results/figures/UMAP_Figure.tiff`).
+- DEG results in `.xlsx` format (e.g., `results/tables/Mouse_TAL_DEG.xlsx`).
 
 Refer to the respective script for further details.
 
@@ -85,4 +84,3 @@ OHSU-NHT-Bahena_TAL_2024/
        ├── exploratory_analysis.ipynb                 # Exploratory data analysis
        └── visualization.ipynb                        # Visualization examples
 ```
-
