@@ -61,13 +61,13 @@ OHSU-NHT-Bahena_TAL_2024/
 ├── LICENSE                                        # Licensing information
 │
 ├── data/                                          # Folder for datasets
-│      ├── raw/                                    # Raw datasets (e.g., downloaded files)
-│      └── processed/                              # Processed datasets for analysis
+│      ├── raw/                                    # Raw datasets (e.g., downloaded files, original .h5ad files)
+│      └── processed/                              # Processed datasets for analysis (after running pre-processing scripts)
 │
 ├── scripts/                                       # Folder for scripts
 │      ├── preprocess/                             # Data cleaning and transformation scripts
-│      ├── analysis/                               # Clustering and differential expression scripts
-│      └── visualization/                          # Scripts for generating figures
+│      ├── analysis/                               # Clustering and differential expression scripts (DEG analysis scripts)
+│      └── visualization/                          # Scripts for generating figures (UMAP, violin plots, etc)
 │
 ├── results/                                       # Folder for results
 │      ├── figures/                                # Generated figures (e.g., UMAP, dot plots)
