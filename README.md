@@ -1,7 +1,7 @@
 # OHSU-NHT-Bahena_TAL_2024
 
 ## Features
-xxxxxxxxxxxxxxxx:<br>
+This is a dummy line<br>
 ✨ .<br>
 ✨ .<br>
 ✨ .<br>
