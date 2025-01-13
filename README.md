@@ -4,9 +4,9 @@ This document explains the steps performed in the provided R code for analyzing 
 
 ## Features
 This is a dummy line: <br>
-✨ Comprehensive analysis of mouse TAL sc-RNAseq data.
-✨ Automated clustering and cell-type annotation.
-✨ Publication-ready figures for zonation and DEG analysis.
+✨ Comprehensive analysis of mouse TAL sc-RNAseq data. <br>
+✨ Automated clustering and cell-type annotation. <br>
+✨ Publication-ready figures for zonation and DEG analysis. <br>
 
 ## How to Use
 ## Pre-Processing Steps
