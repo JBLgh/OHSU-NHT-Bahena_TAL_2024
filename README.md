@@ -11,23 +11,23 @@ This is a dummy line: <br>
 ## How to Use
 ## Pre-Processing Steps
 
-1. **Dataset Loading**
+1. ## Dataset Loading**
 ```bash
 - Download the dataset from [PubMed](https://pubmed.ncbi.nlm.nih.gov/31689386/) and load it using `Seurat::Read10X`. <br>
 ```
-2. **Object Creation:** <br>
+2. ## Object Creation: <br>
 ```bash
    - Create a Seurat object and perform normalization using `SCTransform`.
 ```
-3. **Dimensionality Reduction:** <br>
+3. ## Dimensionality Reduction: <br>
 ```bash
    - Use PCA and UMAP for clustering and visualization.
 ```
-4. **Clustering:**
+4. ## Clustering:
 ```
    - Apply `FindNeighbors` and `FindClusters` to group TAL cells.
 ```
-5. **Subset Clusters:**
+5. ## Subset Clusters:
 ```
    - Extract specific TAL clusters for further analysis.
 ```
