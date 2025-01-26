@@ -1,6 +1,7 @@
 # Explanation of MOUSE Code for TAL Analysis
-This document explains the steps performed in the provided [R code](https://cran.r-project.org/) for analyzing sc-RNAseq data from mouse kidney thick ascending limb (TAL) cells.
+This project analyzes sc-RNAseq data from mouse kidney thick ascending limb (TAL) cells, focusing on clustering, differential expression, and visualization.
 <br>
+
 ## Features
 ✨ Comprehensive analysis of mouse TAL sc-RNAseq data. <br>
 ✨ Automated clustering and cell-type annotation. <br>
