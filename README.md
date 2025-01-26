@@ -61,12 +61,9 @@ TAL cells play a critical role in monovalent and divalent cation transport. Thro
    - Exploratory Analysis: notebooks/exploratory_analysis.Rmd
    - Visualization: notebooks/visualization.Rmd
 
-6. View Outputs<br>
+6. **View Outputs**<br>
 &nbsp; - Figures: Results saved in <code>results/figures/</code> (e.g., <code>UMAP_Zonation.tiff</code>).<br>
-&nbsp; - Tables: DEG results saved in <code>results/tables/</code> (e.g., <code>Mouse_TAL_DEG.xlsx</code>).
-
-  
-<br>
+&nbsp; - Tables: DEG results saved in <code>results/tables/</code> (e.g., <code>Mouse_TAL_DEG.xlsx</code>).<br>
 
 ## Project Directory Structure:
 ```
