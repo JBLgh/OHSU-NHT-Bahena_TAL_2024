@@ -6,7 +6,7 @@ TAL cells play a critical role in monovalent and divalent cation transport. Thro
 ✨ Comprehensive analysis of mouse TAL sc-RNAseq data.  
 ✨ Automated clustering and cell-type annotation.  
 ✨ Publication-ready figures for zonation and DEG analysis.
-<br>
+<br><br>
 
 |**Article Description**                                                               |**Link**                                                                                           
 |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
