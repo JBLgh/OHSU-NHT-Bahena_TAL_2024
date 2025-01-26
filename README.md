@@ -1,11 +1,15 @@
 # Explanation of MOUSE Code for TAL Analysis
-This document explains the steps performed in the provided R code for analyzing sc-RNAseq data from mouse kidney thick ascending limb (TAL) cells.
-
+This document explains the steps performed in the provided [R code](https://cran.r-project.org/) for analyzing sc-RNAseq data from mouse kidney thick ascending limb (TAL) cells.
+<br>
 ## Features
 ✨ Comprehensive analysis of mouse TAL sc-RNAseq data. <br>
 ✨ Automated clustering and cell-type annotation. <br>
 ✨ Publication-ready figures for zonation and DEG analysis. <br>
-
+<br>
+| **Article Description**                                                               | **Link**                                                                                           
+|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| 🧬 Distinct TAL cell types reveal mechanisms of monovalent and divalent cation transport | [`📄 Preprint Article`](https://www.biorxiv.org/content/10.1101/2025.01.16.633282v1) |
+<br>
 
 ## Pre-Processing Steps
 1. **Dataset Loading**  
@@ -22,7 +26,7 @@ This document explains the steps performed in the provided R code for analyzing 
 
 5. **Subset Clusters**  
    - Extract specific TAL clusters for detailed analysis.
-
+<br>
 
 ## How to Use
 
@@ -51,7 +55,7 @@ Outputs include:
 - DEG results in `.xlsx` format (e.g., `results/tables/Mouse_TAL_DEG.xlsx`).
 
 Refer to the respective script for further details.
-
+<br>
 
 ## Project Directory Structure:
 ```
