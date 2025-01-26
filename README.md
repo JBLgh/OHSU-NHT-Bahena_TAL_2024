@@ -105,5 +105,5 @@ OHSU-NHT-Bahena_TAL_2024/
 ```
 
 ## License
-This project is licensed under the [MIT License](license)
+This project is licensed under the [MIT License](License)
 
