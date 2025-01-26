@@ -1,23 +1,24 @@
-# Explanation of MOUSE Code for TAL Analysis
-This project analyzes sc-RNAseq data from mouse kidney thick ascending limb (TAL) cells, focusing on clustering, differential expression, and visualization.
+# **OHSU-NHT-Bahena_TAL_2024**
+This project analyzes single-cell RNA sequencing (sc-RNAseq) data from mouse kidney thick ascending limb (TAL) cells.<br>
+TAL cells play a critical role in monovalent and divalent cation transport. Through clustering, differential expression analysis, and visualization, this project aims to identify distinct TAL cell types and their underlying mechanisms.
+<br>
+## **Features**
+✨ Comprehensive analysis of mouse TAL sc-RNAseq data.  
+✨ Automated clustering and cell-type annotation.  
+✨ Publication-ready figures for zonation and DEG analysis.
 <br>
 
-## Features
-✨ Comprehensive analysis of mouse TAL sc-RNAseq data. <br>
-✨ Automated clustering and cell-type annotation. <br>
-✨ Publication-ready figures for zonation and DEG analysis. <br>
-<br>
-| **Article Description**                                                               | **Link**                                                                                           
+|**Article Description**                                                               |**Link**                                                                                           
 |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | 🧬 Distinct TAL cell types reveal mechanisms of monovalent and divalent cation transport | [`📄 Preprint Article`](https://www.biorxiv.org/content/10.1101/2025.01.16.633282v1) |
 <br>
 
-## Pre-Processing Steps
+## **Pre-Processing Steps**
 1. **Dataset Loading**  
    - Download the dataset from [PubMed](https://pubmed.ncbi.nlm.nih.gov/31689386/) and load it using `Seurat::Read10X`.
 
 2. **Object Creation**  
-   - Create a Seurat object and normalize data using `SCTransform`.
+   - Create a Seurat object and normalize the data using `SCTransform`.
 
 3. **Dimensionality Reduction**  
    - Perform PCA and UMAP for clustering and visualization.
@@ -27,35 +28,44 @@ This project analyzes sc-RNAseq data from mouse kidney thick ascending limb (TAL
 
 5. **Subset Clusters**  
    - Extract specific TAL clusters for detailed analysis.
-<br>
 
-## How to Use
+---
 
-### 1. Pre-Processing Data
-Run the following command to preprocess raw datasets:
-```bash
-python scripts/preprocess/preprocess_data.py
-```
+## **How to Use**
+1. **Set Up the Environment**
+   Use `renv` to install the required R packages:
+   ```R
+   renv::restore()
+   ```
 
-### 2. Perform Analysis
-Run clustering and DEG analysis with:
-```bash
-python scripts/analysis/run_analysis.py
-```
+2. **Run Preprocessing**
+   Preprocess raw datasets:
+   ```R
+   source("scripts/preprocess_data.R")
+   ```
 
-### 3. Generate Figures  
-Figures like UMAP plots, violin plots, and dot plots were generated to highlight TAL cell types, DEG, and zonation markers. Scripts for these plots can be found in `scripts/visualization/generate_figures.py`.
-Create publication-ready visualizations:
-```bash
-python scripts/visualization/generate_figures.py
-```
+3. **Perform Analysis**
+   Perform clustering and DEG analysis:
+    ```R
+    source("scripts/run_analysis.R")
+    ```
 
-### 4. Saving Results
-Outputs include:
-- Figures in `.tiff` format (e.g., `results/figures/UMAP_Figure.tiff`).
-- DEG results in `.xlsx` format (e.g., `results/tables/Mouse_TAL_DEG.xlsx`).
+4. **Generate Figures**
+   Create publication-ready visualizations:
+   ```R
+   source("scripts/generate_figures.R")
+   ```
 
-Refer to the respective script for further details.
+5. **Explore Data Interactively**
+   Open the R Markdown notebooks in notebooks/ using RStudio for exploratory data analysis or visualization:
+   - Exploratory Analysis: notebooks/exploratory_analysis.Rmd
+   - Visualization: notebooks/visualization.Rmd
+
+6. View Outputs<br>
+&nbsp; - Figures: Results saved in <code>results/figures/</code> (e.g., <code>UMAP_Zonation.tiff</code>).<br>
+&nbsp; - Tables: DEG results saved in <code>results/tables/</code> (e.g., <code>Mouse_TAL_DEG.xlsx</code>).
+
+  
 <br>
 
 ## Project Directory Structure:
@@ -96,3 +106,7 @@ OHSU-NHT-Bahena_TAL_2024/
        ├── exploratory_analysis.Rmd                # Exploratory data analysis
        └── visualization.Rmd                       # Visualization examples
 ```
+
+## License
+This project is licensed under the MIT License.
+
