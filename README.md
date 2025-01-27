@@ -1,4 +1,4 @@
-# **OHSU-NHT-Bahena_TAL_2024** <img src="https://dbarchive.biosciencedbc.jp/data/togo-pic/image/201405_kidney.svg" title="Kidney1" alt="Kidney1" width="35" height="35"/>&nbsp;
+# **OHSU-NHT-Bahena_TAL_2024**
 This project analyzes single-cell RNA sequencing (sc-RNAseq) data from mouse kidney thick ascending limb (TAL) cells.<br>
 TAL cells play a critical role in monovalent and divalent cation transport. Through clustering, differential expression analysis, and visualization, this project aims to identify distinct TAL cell types and their underlying mechanisms.
 <br>
@@ -8,9 +8,9 @@ TAL cells play a critical role in monovalent and divalent cation transport. Thro
 ✨ Publication-ready figures for zonation and DEG analysis.
 <br><br>
 
-|**Article Description**                                                               |**Link**                                                                                           
-|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| 🧬 Distinct TAL cell types reveal mechanisms of monovalent and divalent cation transport | [`📄 Preprint Article`](https://www.biorxiv.org/content/10.1101/2025.01.16.633282v1) |
+|**Article Description**                                                                  |**Link**                                                                                           
+|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| 🧬 Distinct TAL cell types reveal mechanisms of monovalent and divalent cation transport | <img src="https://dbarchive.biosciencedbc.jp/data/togo-pic/image/201405_kidney.svg" title="Kidney1" alt="Kidney1" width="25" height="25"/>&nbsp;[`📄 Preprint Article`](https://www.biorxiv.org/content/10.1101/2025.01.16.633282v1) |
 <br>
 
 ## **Pre-Processing Steps**
