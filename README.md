@@ -10,7 +10,7 @@ TAL cells play a critical role in monovalent and divalent cation transport. Thro
 
 |**Article Description**                                                                  |**Link**                                                                                           
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| 🧬 Distinct TAL cell types reveal mechanisms of monovalent and divalent cation transport | <img src="https://dbarchive.biosciencedbc.jp/data/togo-pic/image/202501_Normal_Kidney.svg" title="Kidney2" alt="Kidney2" width="25" height="25"/>[`📄 Preprint Article`](https://www.biorxiv.org/content/10.1101/2025.01.16.633282v1) |
+| 🧬 Distinct TAL cell types reveal mechanisms of monovalent and divalent cation transport | [`📄 Preprint Article`](https://www.biorxiv.org/content/10.1101/2025.01.16.633282v1) |
 <br>
 
 ## **Pre-Processing Steps**
