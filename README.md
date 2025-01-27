@@ -73,7 +73,7 @@ OHSU-NHT-Bahena_TAL_2024/
 ├── LICENSE                                        # Licensing information
 │
 ├── data/                                          # Folder for datasets
-│      ├── raw/                                    # Raw datasets (e.g., downloaded files, original files)
+│      ├── raw/                                    # Raw datasets (downloaded files, original files)
 │      └── processed/                              # Processed datasets for analysis (after running pre-processing scripts)
 │
 ├── R/                                             # Custom R scripts/functions
@@ -88,8 +88,8 @@ OHSU-NHT-Bahena_TAL_2024/
 │      ├── generate_figures.R                      # Script for generating publication-ready figures
 │
 ├── results/                                       # Folder for results
-│      ├── figures/                                # Generated figures (e.g., UMAP, dot plots)
-│      └── tables/                                 # Processed tables (e.g., DEG lists, Mouse_TAL_DEG.xlsx)
+│      ├── figures/                                # Generated figures (UMAP, dot plots)
+│      └── tables/                                 # Processed tables (DEG lists, Mouse_TAL_DEG.xlsx)
 │
 ├── docs/                                          # Folder for documentation
 │      └── MOUSE_Code_Explanation.md               # Explanatory Markdown files of code and methods
