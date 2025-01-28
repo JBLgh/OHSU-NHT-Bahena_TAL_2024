@@ -1,7 +1,7 @@
 # **OHSU-NHT-Bahena_TAL_2024**
 Thick ascending limb (TAL) cells play a critical role in monovalent and divalent cation transport. Through clustering, differential expression analysis, and visualization.This project aims to:<br>
-- <img src="https://dbarchive.biosciencedbc.jp/data/togo-pic/image/202501_Normal_Kidney.svg" title="Kidney2" alt="Kidney2" width="20" height="20"/> Identify distinct TAL cell types and their underlying mechanisms.<br>
-- <img src="https://dbarchive.biosciencedbc.jp/data/togo-pic/image/202501_Normal_Kidney.svg" title="Kidney2" alt="Kidney2" width="20" height="20"/>Analyzes single-cell RNA sequencing (sc-RNAseq) data from mouse kidney TAL cells.<br>
+- <img src="https://cdn.iconscout.com/icon/free/png-512/free-kidney-icon-download-in-svg-png-gif-file-formats--organ-health-medical-pack-healthcare-icons-20102.png?f=webp&w=512" title="Kidney2" alt="Kidney2" width="35" height="35"/> Identify distinct TAL cell types and their underlying mechanisms.<br>
+- <img src="https://cdn.iconscout.com/icon/free/png-512/free-kidney-icon-download-in-svg-png-gif-file-formats--organ-health-medical-pack-healthcare-icons-20102.png?f=webp&w=512" title="Kidney2" alt="Kidney2" width="35" height="35"/>Analyzes single-cell RNA sequencing (sc-RNAseq) data from mouse kidney TAL cells.<br>
 <br>
 
 ## **Features**
