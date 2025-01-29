@@ -82,7 +82,7 @@ OHSU-NHT-Bahena_TAL_2024/
 │      ├── preprocess.R                            # Data cleaning and transformation functions
 │      ├── analysis.R                              # Clustering and DEG analysis functions
 │      ├── visualization.R                         # Visualization functions (UMAP, violin plots, etc.)
-│      └── utils.R                                 # Utility/helper functions (if needed)
+│      └── utils.R                                 # Utility/helper functions
 │
 ├── scripts/                                       # Folder for analysis scripts
 │      ├── preprocess_data.R                       # Script for running data preprocessing
