@@ -5,7 +5,7 @@ Thick ascending limb (TAL) cells play a critical role in monovalent and divalent
 <br>
 
 ## **Features**
-✨ Comprehensive analysis of mouse TAL sc-RNAseq data.  
+✨ Comprehensive analysis of mouse TAL sn-RNAseq data.  
 ✨ Automated clustering and cell-type annotation.  
 ✨ Publication-ready figures for zonation and DEG analysis.
 <br><br>
