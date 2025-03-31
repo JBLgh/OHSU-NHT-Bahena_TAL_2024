@@ -33,7 +33,8 @@ Thick ascending limb (TAL) cells play a critical role in monovalent and divalent
 
 ---
 
-## **How to Use**
+## **How to Use**|
+After the Pre-Processing Steps above. . .
 1. Download `merged_code.rmd` file from this repo.
 2. Open file in `RStudio`
 3. `knit` it to `html`
