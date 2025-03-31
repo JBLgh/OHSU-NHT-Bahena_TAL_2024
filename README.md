@@ -34,38 +34,7 @@ Thick ascending limb (TAL) cells play a critical role in monovalent and divalent
 ---
 
 ## **How to Use**
-1. **Set Up the Environment**<br>
-   Use `renv` to install the required R packages:
-   ```R
-   renv::restore()
-   ```
-
-2. **Run Preprocessing**<br>
-   Preprocess raw datasets:
-   ```R
-   source("scripts/preprocess_data.R")
-   ```
-
-3. **Perform Analysis**<br>
-   Perform clustering and DEG analysis:
-    ```R
-    source("scripts/run_analysis.R")
-    ```
-
-4. **Generate Figures**<br>
-   Create publication-ready visualizations:
-   ```R
-   source("scripts/generate_figures.R")
-   ```
-
-5. **Explore Data Interactively**<br>
-   Open the R Markdown notebooks in <code>notebooks/</code> using RStudio for exploratory data analysis or visualization:
-   - Exploratory Analysis: notebooks/exploratory_analysis.Rmd
-   - Visualization: notebooks/visualization.Rmd
-
-6. **View Outputs**<br>
-   - Figures: Results saved in <code>results/figures/</code> (e.g., <code>UMAP_Zonation.tiff</code>).<br>
-   - Tables: DEG results saved in <code>results/tables/</code> (e.g., <code>Mouse_TAL_DEG.xlsx</code>).<br>
+1. 
 
 ## Project Directory Structure:
 ```
