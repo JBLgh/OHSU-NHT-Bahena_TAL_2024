@@ -4,7 +4,7 @@ Thick ascending limb (TAL) cells play a critical role in monovalent and divalent
 - <img src="https://cdn.iconscout.com/icon/free/png-512/free-kidney-icon-download-in-svg-png-gif-file-formats--organ-health-medical-pack-healthcare-icons-20102.png?f=webp&w=512" title="Kidney2" alt="Kidney2" width="35" height="35"/>Analyzes single-nuclei RNA sequencing (sn-RNAseq) data from mouse kidney TAL cells.<br>
 <br>
 
-- DCT snRNA-Seq data for further exploration:
+- **DCT snRNA-Seq data for further exploration:**
 [Interactive web tool](https://ellisonlab.shinyapps.io/tal_shinycell/)
 
 ## **Features**
