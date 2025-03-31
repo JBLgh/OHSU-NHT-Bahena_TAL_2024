@@ -46,7 +46,7 @@ OHSU-NHT-Bahena_TAL_2024/
 ├── LICENSE                                        # Licensing information
 │
 ├── analysis/                                          
-│      ├── DEG.R/                                    
+│      ├── DEG.R/                                  # Differential Gene Expression (DGE) to compare gene expression levels between sample groups                            
 │      
 │
 ├── figures/                                            
